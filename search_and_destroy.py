@@ -17,7 +17,6 @@ def read_header(filein):
     print(header)
     return  Header
 
-
 if __name__ == "__main__":
     filein = "/home/damboise/Documents/text_replace/init.asc"
     header = read_header(filein)
