@@ -17,7 +17,6 @@ def read_header(filein):
     print(header)
     
     
-    
 if __name__ == "__main__":
     filein = "/home/damboise/Documents/text_replace/init.asc"
     nodata = int(header.split(' ')[-1])
