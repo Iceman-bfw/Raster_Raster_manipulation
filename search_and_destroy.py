@@ -30,4 +30,4 @@ if __name__ == "__main__":
     #for r in (("2", "0"), ("3", "0"), (nan_value_string[1], "-9999")):
     #newraster1 = raster[raster>1]=0
     #save_path = "/home/simulation/avalanche_simulation/01_simulation/{}-Lawine/psamUH/qgis/".format(Lawine)
-    np.savetxt('class_1.txt', raster, fmt="%d", header=Header, comments='')
+    np.savetxt('class_1.txt', raster, fmt="%d", header=header, comments='')
