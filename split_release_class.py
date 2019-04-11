@@ -23,9 +23,7 @@ if __name__ == "__main__":
     raster = np.loadtxt(filein, skiprows=6)
 
     # make release classes
-    for i in range(1,14,1):
+    for i in range(1,4,1):
         raster = np.loadtxt(filein, skiprows=6)
         ras = class_builder(raster, i)
         np.savetxt('release_class_%s.asc' %(str(i),), ras, fmt="%d", header=header, comments='')
-
-    
