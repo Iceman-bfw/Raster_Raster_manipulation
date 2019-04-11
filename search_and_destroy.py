@@ -13,7 +13,8 @@ def read_header(filein):
 
 
 if __name__ == "__main__":
-    filein = "/home/damboise/Documents/text_replace/test_dhm_release_.asc"
+    #filein = "/home/damboise/Documents/text_replace/test_dhm_release_s_.asc"
+    filein = "/home/damboise/Documents/text_replace/40m_slope_45obs_hemi_rel.asc"
     header = read_header(filein)
     # nodata = float(int(header.split(' ')[-1]))
     raster = np.loadtxt(filein,  skiprows=6)
